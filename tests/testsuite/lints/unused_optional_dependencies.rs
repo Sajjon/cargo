@@ -204,7 +204,7 @@ fn inactive_weak_optional_dep() {
         .feature("dep_feature", &[])
         .publish();
 
-    // `dep_name`` is included as a weak optional dependency throught speficying the `dep_name?/dep_feature` in feature table.
+    // `dep_name`` is included as a weak optional dependency throught specifying the `dep_name?/dep_feature` in feature table.
     // In edition2024, `dep_name` need to be add `dep:dep_name` to feature table to activate it.
 
     // This test explain the conclusion mentioned above

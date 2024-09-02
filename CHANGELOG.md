@@ -157,7 +157,7 @@
   [#14211](https://github.com/rust-lang/cargo/pull/14211)
 - Use `std::fs::absolute` instead of reimplementing it 
   [#14075](https://github.com/rust-lang/cargo/pull/14075)
-- Remove unecessary feature activations from cargo.
+- Remove unnecessary feature activations from cargo.
   [#14122](https://github.com/rust-lang/cargo/pull/14122)
   [#14160](https://github.com/rust-lang/cargo/pull/14160)
 - Revert #13630 as rustc ignores `-C strip` on MSVC.

@@ -63,7 +63,7 @@ use time::format_description::well_known::Rfc3339;
 use time::{Duration, OffsetDateTime};
 use url::Url;
 
-/// Path to the local index for psuedo-crates.io.
+/// Path to the local index for pseudo-crates.io.
 ///
 /// This is a Git repo
 /// initialized with a `config.json` file pointing to `dl_path` for downloads
@@ -618,7 +618,7 @@ struct PackageFile {
 
 const DEFAULT_MODE: u32 = 0o644;
 
-/// Setup a local psuedo-crates.io [`TestRegistry`]
+/// Setup a local pseudo-crates.io [`TestRegistry`]
 ///
 /// This is implicitly called by [`Package::new`].
 ///
